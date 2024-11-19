@@ -2,11 +2,36 @@
 font-family: "Playfair Display", serif;
 font-family: "Josefin Slab", serif;
 */
-
-h1 {
-  font-family: "Playfair Display", serif;
-  font-weight: bold;
+:root {
+  --color-background-hero: #abcaf1;
+  --color-button-hero: #373f47;
+  --font-family-header-1: "Playfair Display", serif;
+  --font-family-default: "Josefin Slab", serif;
 }
-p {
-  font-family: "Josefin Slab", serif;
+
+.hero {
+  background-color: var(--color-background-hero);
+  font-family: var(--font-family-default);
+  text-align: center;
+  padding: 160px 20px;
+}
+.hero h1 {
+  font-family: var(--font-family-header-1);
+  font-weight: bold;
+  font-size: 60px;
+}
+.hero h2 {
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 2;
+}
+.hero p {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0;
+}
+.btn-branding {
+  background: var(--color-button-hero);
+  color: white;
+  font-size: 25px;
 }
