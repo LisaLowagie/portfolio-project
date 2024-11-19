@@ -1,0 +1,12 @@
+/*
+font-family: "Playfair Display", serif;
+font-family: "Josefin Slab", serif;
+*/
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+p {
+  font-family: "Josefin Slab", serif;
+}
