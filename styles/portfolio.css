@@ -60,7 +60,10 @@ p {
   padding: 5px 10px;
 }
 .project-description {
-  padding: 0px 20px 50px;
+  padding: 50px 20px 50px;
+}
+img {
+  padding: 50px 20px 50px;
 }
 
 @media (max-width: 900px) {
