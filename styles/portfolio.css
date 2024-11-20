@@ -8,7 +8,21 @@ font-family: "Josefin Slab", serif;
   --font-family-header-1: "Playfair Display", serif;
   --font-family-default: "Josefin Slab", serif;
 }
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-family-header-1);
+}
+h2 {
+  font-size: 50px;
+}
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
 .hero {
   background-color: var(--color-background-hero);
   font-family: var(--font-family-default);
@@ -21,6 +35,7 @@ font-family: "Josefin Slab", serif;
   font-size: 60px;
 }
 .hero h2 {
+  font-family: var(--font-family-default);
   font-size: 30px;
   font-weight: normal;
   line-height: 2;
@@ -34,4 +49,32 @@ font-family: "Josefin Slab", serif;
   background: var(--color-button-hero);
   color: white;
   font-size: 25px;
+  line-height: 27px;
+  padding: 10px 20px;
+}
+.btn-branding-outline {
+  border: 1px solid var(--color-button-hero);
+  color: var(--color-button-hero);
+  font-size: 15px;
+  line-height: 25px;
+  padding: 5px 10px;
+}
+.project-description {
+  padding: 0px 20px 50px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
+  .project-description {
+    padding: 0 0 40px;
+    text-align: center;
+  }
 }
