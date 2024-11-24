@@ -90,15 +90,15 @@ img {
 .content h3 {
 	font-family: var(--font-family-default);
 	font-size: 30px;
-	font-weight: normal;
+	font-weight: bold;
 	line-height: 2;
+	margin: 20px 0 0;
 }
 
 .content p {
 	font-family: var(--font-family-default);
-	font-size: 25px;
+	font-size: 18px;
 	line-height: 1.5;
-	margin-top: 20px;
 }
 .content img {
 	width: 75%;
