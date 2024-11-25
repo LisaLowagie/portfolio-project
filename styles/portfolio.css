@@ -25,33 +25,31 @@ p {
 }
 
 .logo {
-	max-width: 150px;
+	max-height: 100px;
 }
 nav {
 	padding: 20px;
 }
 nav ul {
 	margin: 0;
-	padding: 0;
+	padding: 20px;
 }
 nav li {
 	display: inline;
 	list-style: none;
 	line-height: 62px;
-	margin-left: 15px;
+	margin-left: 50px;
 	font-family: var(--font-family-default);
-	font-size: 20px;
+	font-size: 30px;
 }
 
-nav li.active a {
-	color: var(--color-background-hero);
-}
 nav a {
 	text-decoration: none;
 	color: black;
 	transition: all 1OOms ease-in-out;
 }
-nav a:hover {
+nav a:hover,
+nav li.active a {
 	color: var(--color-background-hero);
 }
 /* Home page */
@@ -178,5 +176,14 @@ img {
 	}
 	.btn-content {
 		font-size: 15px;
+	}
+	.logo {
+		max-height: 40px;
+	}
+	nav li {
+		line-height: 20px;
+		margin-left: 5px;
+		font-family: var(--font-family-default);
+		font-size: 20px;
 	}
 }
