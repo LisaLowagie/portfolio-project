@@ -18,7 +18,7 @@ h6 {
 }
 
 h2 {
-	font-size: 50px;
+	font-size: 40px;
 }
 h4 {
 	font-size: 48px;
@@ -105,11 +105,11 @@ footer .social-links a:hover {
 .hero h1 {
 	font-family: var(--font-family-header-1);
 	font-weight: bold;
-	font-size: 60px;
+	font-size: 50px;
 }
 .hero h2 {
 	font-family: var(--font-family-default);
-	font-size: 30px;
+	font-size: 20px;
 	font-weight: normal;
 	line-height: 2;
 }
@@ -121,14 +121,14 @@ footer .social-links a:hover {
 .btn-branding {
 	background: var(--color-button-hero);
 	color: white;
-	font-size: 25px;
+
 	line-height: 27px;
 	padding: 10px 20px;
 }
 .btn-branding-outline {
 	border: 1px solid var(--color-button-hero);
 	color: var(--color-button-hero);
-	font-size: 15px;
+
 	line-height: 25px;
 	padding: 5px 10px;
 }
@@ -136,10 +136,13 @@ footer .social-links a:hover {
 .project-description {
 	padding: 50px 20px 50px;
 }
+
 img {
 	border-radius: 5px;
 }
-
+.container-work {
+	width: 80%;
+}
 /* About me page */
 
 .content {
