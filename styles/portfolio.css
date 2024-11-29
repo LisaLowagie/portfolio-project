@@ -16,6 +16,7 @@ h5,
 h6 {
 	font-family: var(--font-family-header-1);
 }
+
 h2 {
 	font-size: 50px;
 }
@@ -43,7 +44,7 @@ nav li {
 	line-height: 62px;
 	margin-left: 50px;
 	font-family: var(--font-family-default);
-	font-size: 30px;
+	font-size: 25px;
 }
 
 nav a {
@@ -99,7 +100,7 @@ footer .social-links a:hover {
 	background-color: var(--color-background-hero);
 	font-family: var(--font-family-default);
 	text-align: center;
-	padding: 160px 20px;
+	padding: 80px 20px;
 }
 .hero h1 {
 	font-family: var(--font-family-header-1);
@@ -142,13 +143,13 @@ img {
 /* About me page */
 
 .content {
-	padding: 160px 20px;
+	padding: 60px 20px;
 }
 
 .content h1 {
 	font-family: var(--font-family-header-1);
 	font-weight: bold;
-	font-size: 50px;
+	font-size: 40px;
 }
 .content h2 {
 	font-family: var(--font-family-default);
