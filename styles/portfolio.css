@@ -3,252 +3,265 @@ font-family: "Playfair Display", serif;
 font-family: "Josefin Slab", serif;
 */
 :root {
-	--color-background-hero: #a5ad9f;
-	--color-button-hero: #373f47;
-	--font-family-header-1: "Playfair Display", serif;
-	--font-family-default: "Josefin Slab", serif;
+    --color-background-hero: #a5ad9f;
+    --color-button-hero: #373f47;
+    --font-family-header-1: "Playfair Display", serif;
+    --font-family-default: "Josefin Slab", serif;
 }
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.container {
+    max-width: 100%;
+    overflow: hidden;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-	font-family: var(--font-family-header-1);
+    font-family: var(--font-family-header-1);
 }
 
 h2 {
-	font-size: 40px;
+    font-size: 40px;
 }
 h4 {
-	font-size: 48px;
+    font-size: 48px;
 }
 p {
-	font-size: 16px;
-	line-height: 1.5;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .logo {
-	max-height: 100px;
+    max-height: 100px;
 }
 nav {
-	padding: 20px;
+    padding: 20px;
 }
 nav ul {
-	margin: 0;
-	padding: 20px;
+    margin: 0;
+    padding: 20px;
 }
 nav li {
-	display: inline;
-	list-style: none;
-	line-height: 62px;
-	margin-left: 50px;
-	font-family: var(--font-family-default);
-	font-size: 25px;
+    display: inline;
+    list-style: none;
+    line-height: 62px;
+    margin-left: 50px;
+    font-family: var(--font-family-default);
+    font-size: 25px;
 }
 
 nav a {
-	text-decoration: none;
-	color: black;
-	transition: all 1OOms ease-in-out;
+    text-decoration: none;
+    color: black;
+    transition: all 1OOms ease-in-out;
 }
 nav a:hover,
 nav li.active a {
-	color: var(--color-background-hero);
+    color: var(--color-background-hero);
 }
 footer {
-	margin: 60px 0;
+    margin: 60px 0;
 }
 
 footer .contact-box {
-	background-color: var(--color-background-hero);
-	padding: 50px;
-	border-radius: 10px;
+    background-color: var(--color-background-hero);
+    padding: 50px;
+    border-radius: 10px;
 }
 
 footer.contact-box p {
-	margin: 0;
+    margin: 0;
 }
 footer .email-link {
-	text-decoration: none;
-	color: black;
-	display: flex;
-	justify-content: center;
-	font-size: 24px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
 }
 footer .email-link:hover {
-	color: var(--color-background-hero);
+    color: var(--color-background-hero);
 }
 footer .social-links {
-	text-align: center;
-	margin: 30px;
+    text-align: center;
+    margin: 30px;
 }
 footer .social-links a {
-	color: var(--color-button-hero);
-	background-color: var(--color-background-hero);
-	margin: 0 20px;
-	padding: 10px 14px;
-	border-radius: 50%;
-	font-size: 18px;
-	transition: all 100ms ease-in-out;
+    color: var(--color-button-hero);
+    background-color: var(--color-background-hero);
+    margin: 0 20px;
+    padding: 10px 14px;
+    border-radius: 50%;
+    font-size: 18px;
+    transition: all 100ms ease-in-out;
 }
 footer .social-links a:hover {
-	color: white;
-	background-color: var(--color-background-hero);
+    color: white;
+    background-color: var(--color-background-hero);
 }
 .hero {
-	background-color: var(--color-background-hero);
-	font-family: var(--font-family-default);
-	text-align: center;
-	padding: 80px 20px;
+    background-color: var(--color-background-hero);
+    font-family: var(--font-family-default);
+    text-align: center;
+    padding: 80px 20px;
 }
 .hero h1 {
-	font-family: var(--font-family-header-1);
-	font-weight: bold;
-	font-size: 50px;
+    font-family: var(--font-family-header-1);
+    font-weight: bold;
+    font-size: 50px;
 }
 .hero h2 {
-	font-family: var(--font-family-default);
-	font-size: 20px;
-	font-weight: normal;
-	line-height: 2;
+    font-family: var(--font-family-default);
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 2;
 }
 .hero p {
-	font-size: 25px;
-	font-weight: bold;
-	margin: 0;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
 }
 .btn-branding {
-	background: var(--color-button-hero);
-	color: white;
+    background: var(--color-button-hero);
+    color: white;
 
-	line-height: 27px;
-	padding: 10px 20px;
+    line-height: 27px;
+    padding: 10px 20px;
 }
 .btn-branding-outline {
-	border: 1px solid var(--color-button-hero);
-	color: var(--color-button-hero);
+    border: 1px solid var(--color-button-hero);
+    color: var(--color-button-hero);
 
-	line-height: 25px;
-	padding: 5px 10px;
+    line-height: 25px;
+    padding: 5px 10px;
 }
 
 .project-description {
-	padding: 50px 20px 50px;
+    padding: 50px 20px 50px;
 }
 
 img {
-	border-radius: 5px;
+    border-radius: 5px;
 }
 .container-work {
-	width: 80%;
+    width: 80%;
 }
 /* About me page */
 
 .content {
-	padding: 60px 20px;
+    padding: 60px 20px;
 }
 
 .content h1 {
-	font-family: var(--font-family-header-1);
-	font-weight: bold;
-	font-size: 40px;
+    font-family: var(--font-family-header-1);
+    font-weight: bold;
+    font-size: 40px;
 }
 .content h2 {
-	font-family: var(--font-family-default);
-	font-size: 30px;
-	font-weight: normal;
-	line-height: 2;
+    font-family: var(--font-family-default);
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 2;
 }
 .content h3 {
-	font-family: var(--font-family-default);
-	font-size: 30px;
-	font-weight: bold;
-	line-height: 2;
-	margin: 20px 0 0;
+    font-family: var(--font-family-default);
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 2;
+    margin: 20px 0 0;
 }
 
 .content p {
-	font-family: var(--font-family-default);
-	font-size: 18px;
-	line-height: 1.5;
+    font-family: var(--font-family-default);
+    font-size: 18px;
+    line-height: 1.5;
 }
 .content img {
-	width: 75%;
+    width: 75%;
 }
 
 .btn-content {
-	border: 1px solid var(--color-button-hero);
-	color: var(--color-button-hero);
-	font-size: 20px;
-	line-height: 27px;
-	padding: 10px 20px;
+    border: 1px solid var(--color-button-hero);
+    color: var(--color-button-hero);
+    font-size: 20px;
+    line-height: 27px;
+    padding: 10px 20px;
 }
 
 .work-title {
-	text-align: center;
+    text-align: center;
 }
 @media (max-width: 900px) {
-	.hero h1 {
-		font-size: 40px;
-	}
-	.hero h2 {
-		font-size: 20px;
-	}
-	.hero {
-		padding: 80px 20px;
-	}
-	.hero a {
-		font-size: 20px;
-		padding: 10px;
-	}
-	.project-description {
-		padding: 0 0 40px;
-		text-align: center;
-	}
-	.project-description h2 {
-		font-size: 25px;
-	}
-	.content {
-		text-align: center;
-		padding: 0px;
-	}
-	.content img {
-		margin: 20px auto;
-		width: 80%;
-	}
-	.content h1 {
-		font-size: 30px;
-	}
-	.content h2 {
-		font-size: 20px;
-	}
-	.content p {
-		font-size: 15px;
-	}
-	.btn-content {
-		font-size: 15px;
-	}
-	.logo {
-		max-height: 40px;
-	}
-	nav li {
-		line-height: 20px;
-		margin-left: 5px;
-		font-family: var(--font-family-default);
-		font-size: 20px;
-	}
-	h4 {
-		font-size: 20px;
-	}
-	footer .email-link {
-		font-size: 20px;
-	}
-	footer .contact-box {
-		padding: 10px;
-	}
-	footer .btn {
-		font-size: 15px;
-		padding: 10px;
-	}
+    .hero h1 {
+        font-size: 40px;
+    }
+    .hero h2 {
+        font-size: 20px;
+    }
+    .hero {
+        padding: 80px 20px;
+    }
+    .hero a {
+        font-size: 20px;
+        padding: 10px;
+    }
+    .project-description {
+        padding: 0 0 40px;
+        text-align: center;
+    }
+    .project-description h2 {
+        font-size: 25px;
+    }
+    .content {
+        text-align: center;
+        padding: 0px;
+    }
+    .content img {
+        margin: 20px auto;
+    }
+    .content h1 {
+        font-size: 30px;
+    }
+    .content h2 {
+        font-size: 20px;
+    }
+    .content p {
+        font-size: 15px;
+    }
+    .btn-content {
+        font-size: 15px;
+    }
+    .logo {
+        max-height: 40px;
+    }
+    nav li {
+        line-height: 20px;
+        margin-left: 5px;
+        font-family: var(--font-family-default);
+        font-size: 20px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    footer .email-link {
+        font-size: 20px;
+    }
+    footer .contact-box {
+        padding: 10px;
+    }
+    footer .btn {
+        font-size: 15px;
+        padding: 10px;
+    }
 }
